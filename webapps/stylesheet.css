@@ -1,0 +1,146 @@
+body {
+    background-color: #f2cbbc;
+}
+h1{
+	margin: auto;
+	width: 600px;
+	text-align: center;
+	font-size: 450%;
+	font-family: 'simple';
+	color: #e05038;
+}
+
+#userName{
+	text-align: center;
+	border-color:#cccccc;
+	border-style:solid;
+	padding:14px;
+	font-size:16px;
+	text-align:center;
+	border-radius:0px;
+	border-width:5px;
+	font-family: 'Montserrat';
+}
+
+@font-face {
+    font-family: 'simple';
+    src: url('/cockadoodle/Fonts/simple-one.otf');
+}
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Montserrat-Regular'), url('/cockadoodle/Fonts/Montserrat.woff2') format('woff2');
+}
+
+@font-face{
+	font-family: 'Verdana'
+	src:url('/cockadoodle/Fonts/Verdana.ttf');
+}
+
+p.name{
+	font-family: 'Montserrat';
+	font-size: 2em;
+	color: #334431;
+}
+
+p.textbox{
+	
+}
+
+.loginDiv{
+	text-align: center;
+}
+
+.welcomemsg{
+text-align: center;
+padding-right: 6em
+}
+
+.loginDetails{
+	margin: auto;
+	font-family: 'Montserrat';
+	font-size: 2em;
+	
+}
+
+.btn {
+  background: #e05038;
+  font-family: 'simple';
+  color: #ffffff;
+  font-size: 2em;
+  padding: 10px 20px 10px 20px;
+}
+
+.logoutbtn{
+	background: #e05038;
+  font-family: 'simple';
+  color: #ffffff;
+  font-size: 1em;
+  padding: 10px 20px 10px 20px;
+	float:left;
+}
+
+.buttondiv{
+	padding-left: 2.3em;
+	height: 60px;
+
+}
+
+.btn:hover {
+  background: #e83f5e;
+  text-decoration: none;
+}
+
+
+.boxes{
+	width:700px;
+	text-align: center;
+	margin: auto;
+
+}
+.groupChatBox{
+	padding: 7px;
+	font-family: "Montserrat";
+	width:705px;
+}
+
+.groupChatHistory{
+	padding: 10px;
+	resize: vertical;
+	width:700px;
+	height: 500px;
+	font-family: 'Verdana';
+}
+
+.groupChatHistory{
+	font-family: "Montserrat";
+	line-height: 160%
+	
+}
+
+ul.listOfUsers{
+	font-size: 1em;
+	list-style-image: url('/cockadoodle/logo.png');
+	align-content: left;
+	margin: auto;
+	list-style-position: outside
+}
+
+li{
+	 text-align:left
+}
+.list{
+	float: left;
+	padding-top: 1em;
+	font-family: 'Montserrat';
+	font-size: 150%;
+	padding-left: 10px;
+}
+
+.listItem{
+	align-content: left;
+}
+
+
+
